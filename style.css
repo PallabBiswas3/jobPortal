@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: rgb(228, 228, 103);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #3494E6, #EC6EAD);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container, .fetch-container {
+    margin-bottom: 20px;
+}
+
+.fetch-container button {
+    background-color: blue;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+.form-group textarea {
+    max-width: 100%;
+}
+
+#btn {
+    margin: 4px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job-profile {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
